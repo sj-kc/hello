@@ -1,168 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css" />
-    <link rel="icon"
-        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css"
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>"
+    />
 
     <title>Sung Castro</title>
 
     <style>
-        html,
-        body {
-            height: 100%;
-        }
+      html,
+      body {
+        height: 100%;
+      }
 
-        body {
-            display: -ms-flexbox;
-            display: flex;
-            -ms-flex-align: center;
-            align-items: center;
-            padding-top: 40px;
-            padding-bottom: 40px;
-            background-color: rgba(238, 242, 247, 0.25);
-        }
+      body {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: rgba(238, 242, 247, 0.25);
+      }
 
-        .body__container {
-            width: 100%;
-            max-width: 90%;
-            padding: 15px;
-            text-align: left;
-            margin: auto;
-        }
+      .body__container {
+        width: 100%;
+        max-width: 90%;
+        padding: 15px;
+        text-align: left;
+        margin: auto;
+      }
 
-        .container__icons i {
-            font-size: 25px;
-            color: #de0771;
-        }
+      .container__icons i {
+        font-size: 25px;
+        color: #de0771;
+      }
 
-        .body__title {
-            font-size: 45px;
-        }
+      .container__legacy__text {
+        font-size: 15px;
+        margin-left: 2px;
+      }
+      .body__title {
+        font-size: 45px;
+      }
 
-        .badge {
-            font-size: 60%;
-        }
+      .badge {
+        font-size: 60%;
+      }
     </style>
-</head>
+  </head>
 
-<body class="text-center">
+  <body class="text-center">
     <div class="body__container">
-        <div class="mb-5">
-            <h1 class="body__title">Hi👋, I'm Sung</h1>
+      <div class="mb-5">
+        <h1 class="body__title">Hi👋, I'm Sung</h1>
+      </div>
+
+      <div class="row">
+        <div class="col-3 ml-1">
+          <div class="container__about">
+            <h5 class="mb-3">About me</h5>
+            <p>Passionate for computer programming.</p>
+
+            <p>
+              Mentor in women go tech.
+            </p>
+
+            <p>
+              Obsessed with simplicity and constantly seeking to create work
+              that has value and innovation.
+            </p>
+
+            <p>
+              I believe that learning and implementing new things is very
+              important in life.
+            </p>
+
+            <p class="mb-5">
+              Currently studying GraphQL and reading "Why we sleep".
+            </p>
+
+            <a
+              class="text-muted container__legacy__text"
+              target="blank"
+              href="https://sung-hello.netlify.app/"
+            >
+              <u> My old web page </u></a
+            >
+          </div>
         </div>
 
-        <div class="row">
-            <div class="col-3 ml-1">
-                <div class="container__about">
-                    <h5 class="mb-3">About me</h5>
-                    <p>Passionate for computer programming.</p>
-
-                    <p>
-                        Mentor in women go tech.
-                    </p>
-
-                    <p>
-                        Obsessed with simplicity and constantly seeking to create work
-                        that has value and innovation.
-                    </p>
-
-                    <p>
-                        I believe that learning and implementing new things is very
-                        important in life.
-                    </p>
-
-                    <p>
-                        Currently studying GraphQL and reading "Why we sleep".
-                    </p>
-
-                </div>
-
+        <div class="col-8 container__project">
+          <h5 class="mb-3">Projects</h5>
+          <div class="row">
+            <div class="col-4 mb-5">
+              <a
+                target="blank"
+                href="https://github.com/sungkimcastro/sorting-algo"
+                class="h6"
+                >Algorithm visualizer 🧐</a
+              >
+              <p class="mb-2">
+                A VanillaJS visualization tool for Sorting Algorithms.
+              </p>
+              <span class="badge badge-light border">VanillaJS</span>
+              <span class="badge badge-light border">Algorithms</span>
+            </div>
+            <div class="col-4 mb-5">
+              <a
+                target="blank"
+                href="https://github.com/sungkimcastro/expenses"
+                class="h6"
+                >Expenses tracker 🧾</a
+              >
+              <p class="mb-2">
+                A React application that allows you to store, and manage your
+                expenses.
+              </p>
+              <span class="badge badge-light border">React</span>
+              <span class="badge badge-light border">Redux</span>
+              <span class="badge badge-light border">Sass</span>
+              <span class="badge badge-light border">Firebase</span>
+            </div>
+            <div class="col-4 mb-5">
+              <a
+                target="blank"
+                href="https://github.com/sungkimcastro/burgerbuilder"
+                class="h6"
+                >Burger Builder 🍔</a
+              >
+              <p class="mb-2">
+                A React application that allows you to build and visualize the
+                creation of your favorite burger.
+              </p>
+              <span class="badge badge-light border">React</span>
+              <span class="badge badge-light border">Redux</span>
+              <span class="badge badge-light border">Css-modules</span>
+              <span class="badge badge-light border">Firebase</span>
             </div>
 
-            <div class="col-8 container__project">
-                <h5 class="mb-3">Projects</h5>
-                <div class="row">
-                    <div class="col-4 mb-5">
-                        <a target="blank" href="https://github.com/sungkimcastro/sorting-algo" class="h6">Algorithm
-                            visualizer 🧐</a>
-                        <p class="mb-2">
-                            A VanillaJS visualization tool for Sorting Algorithms.
-                        </p>
-                        <span class="badge badge-light border">VanillaJS</span>
-                        <span class="badge badge-light border">Algorithms</span>
-                    </div>
-                    <div class="col-4 mb-5">
-                        <a target="blank" href="https://github.com/sungkimcastro/expenses" class="h6">Expenses tracker
-                            🧾</a>
-                        <p class="mb-2">
-                            A React application that allows you to store, and manage your
-                            expenses.
-                        </p>
-                        <span class="badge badge-light border">React</span>
-                        <span class="badge badge-light border">Redux</span>
-                        <span class="badge badge-light border">Sass</span>
-                        <span class="badge badge-light border">Firebase</span>
-                    </div>
-                    <div class="col-4 mb-5">
-                        <a target="blank" href="https://github.com/sungkimcastro/burgerbuilder" class="h6">Burger
-                            Builder 🍔</a>
-                        <p class="mb-2">
-                            A React application that allows you to build and visualize the
-                            creation of your favorite burger.
-                        </p>
-                        <span class="badge badge-light border">React</span>
-                        <span class="badge badge-light border">Redux</span>
-                        <span class="badge badge-light border">Css-modules</span>
-                        <span class="badge badge-light border">Firebase</span>
-                    </div>
-
-                    <div class="col-4 mb-5">
-                        <a target="blank" href="https://github.com/sungkimcastro/hang_game" class="h6">Hang game 🎮</a>
-                        <p class="mb-2">
-                            An old school favorite, a word game where the goal is simply to
-                            find the missing word/words.
-                        </p>
-                        <span class="badge badge-light border">VanillaJS</span>
-                        <span class="badge badge-light border">HTML</span>
-                        <span class="badge badge-light border">CSS</span>
-                    </div>
-                    <div class="col-4 mb-5">
-                        <a target="blank" href="https://github.com/sungkimcastro/notes_app" class="h6">Notes app ✍️</a>
-                        <p class="mb-2">
-                            Capture, prioritize ideas and projects, so nothing falls through
-                            the cracks.
-                        </p>
-                        <span class="badge badge-light border">VanillaJS</span>
-                        <span class="badge badge-light border">HTML</span>
-                        <span class="badge badge-light border">CSS</span>
-                    </div>
-                </div>
+            <div class="col-4 mb-5">
+              <a
+                target="blank"
+                href="https://github.com/sungkimcastro/hang_game"
+                class="h6"
+                >Hang game 🎮</a
+              >
+              <p class="mb-2">
+                An old school favorite, a word game where the goal is simply to
+                find the missing word/words.
+              </p>
+              <span class="badge badge-light border">VanillaJS</span>
+              <span class="badge badge-light border">HTML</span>
+              <span class="badge badge-light border">CSS</span>
             </div>
-
-            <div class="col">
-                <div class="container__icons text-center mt-5">
-                    <a target="blank" href="https://github.com/sungkimcastro" class="d-block mb-3">
-                        <i class="mdi mdi-github-circle"></i>
-                    </a>
-
-                    <a target="blank" href="mailto:s.kim.castro@gmail.com" class="d-block mb-3">
-                        <i class="mdi mdi-email"></i>
-                    </a>
-
-                    <a target="blank" href="https://www.linkedin.com/in/sung-castro-647499136/m" class="d-block">
-                        <i class="mdi mdi-linkedin-box"></i>
-                    </a>
-
-                </div>
+            <div class="col-4 mb-5">
+              <a
+                target="blank"
+                href="https://github.com/sungkimcastro/notes_app"
+                class="h6"
+                >Notes app ✍️</a
+              >
+              <p class="mb-2">
+                Capture, prioritize ideas and projects, so nothing falls through
+                the cracks.
+              </p>
+              <span class="badge badge-light border">VanillaJS</span>
+              <span class="badge badge-light border">HTML</span>
+              <span class="badge badge-light border">CSS</span>
             </div>
+          </div>
         </div>
+
+        <div class="col">
+          <div class="container__icons text-center mt-5">
+            <a
+              target="blank"
+              href="https://github.com/sungkimcastro"
+              class="d-block mb-3"
+            >
+              <i class="mdi mdi-github-circle"></i>
+            </a>
+
+            <a
+              target="blank"
+              href="mailto:s.kim.castro@gmail.com"
+              class="d-block mb-3"
+            >
+              <i class="mdi mdi-email"></i>
+            </a>
+
+            <a
+              target="blank"
+              href="https://www.linkedin.com/in/sung-castro-647499136/m"
+              class="d-block"
+            >
+              <i class="mdi mdi-linkedin-box"></i>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
